@@ -3,7 +3,7 @@ b=0
 for i in a:
     b+=i
 print(b)'''
-a_change1=[int(i) for i in input().split()]
+a=[int(i) for i in input().split()]
 a.sort()
 b=[]
 if len(a)>1:
