@@ -3,6 +3,7 @@ b=0
 for i in a:
     b+=i
 print(b)'''
+'''added some changes_R'''
 a=[int(i) for i in input().split()]
 if len(a)==1:
     print(*a)
